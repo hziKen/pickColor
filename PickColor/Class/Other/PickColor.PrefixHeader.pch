@@ -1,0 +1,56 @@
+//
+//  PickColor.PrefixHeader.pch
+//  PickColor
+//
+//  Created by fory1 on 2018/1/19.
+//  Copyright © 2018年 fory1. All rights reserved.
+//
+
+#ifdef __OBJC__ // OC文件
+
+
+#define HZKScreenH [UIScreen mainScreen].bounds.size.height
+#define HZKScreenW [UIScreen mainScreen].bounds.size.width
+
+
+//#import "MJExtension.h"
+#import "SVProgressHUD.h"
+//#import "HZKNetworkTool.h"
+//#import "MJRefresh.h"
+#import "UIView+MRExtension.h"
+//#import "UIImage+MRExtension.h"
+//#import "UILabel+MRExtension.h"
+/**
+ * API接口
+ */
+#define BaseAPI @"http://120.78.87.79/bjx/api/"
+#define BasePhotoAPI @"http://120.78.87.79/bjx/public/uploads/"
+#define SafeAreaTopHeight (HZKScreenH == 812.0 ? 88 : 64)
+
+#define HZKColor(r,g,b) [UIColor colorWithRed:(r)/ 255.0 green:(g)/ 255.0 blue:(b)/ 255.0 alpha:1]
+// 随机颜色
+#define HZKRandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0f]
+
+// 全局主题颜色
+#define HZKGlobalBg HZKColor(0,206,209)
+#define HZKGlobalBg1 HZKColor(245, 80, 83)
+// 主题背景颜色
+#define HZKBgColor HZKRGBColor(240, 240, 240)
+
+#define HZKFunc HZKLog(@"%s",__func__)
+// 自定义LOG
+
+// DEBUG比较特殊,不能跳
+
+#ifdef DEBUG
+
+#define HZKLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HZKLog(...)
+
+#endif
+
+
+#endif

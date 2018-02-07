@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C71B75F6F38E7E22DE18A2ED78C9C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12139400FA485D13A6BE236B6741BC4A /* CWDrawerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 561954BDE38C713BB449515A99A514B1 /* CWDrawerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4483B09951D6C449CFEA9306DDF24950 /* CWInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 59659D54BB71B60B97E26224C22A6CBB /* CWInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A9DF242F515F0D5B06D2CAB5B2214B /* CWLateralSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70528D8D734987873D021342E0443E2C /* CWLateralSlide-dummy.m */; };
+		6A20D0499733A6C484D3C755051D72C7 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E871035ADED0193DCFE8EE9167937C /* CWInteractiveTransition.m */; };
+		771E7A6C1CB3CF2EBD04CD446B0AB923 /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D52DFC9C2B1421ED47AB8651D08812B6 /* CWLateralSlideAnimator.m */; };
+		AD889B907C7FE68C4AA6F4B41658C099 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA3F405349B4C41C929AA644A4FF9F /* CWLateralSlideConfiguration.m */; };
+		AF4950E165E3DF556EE54BBE78F01251 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19303E8DCC56C004181EEED98BCCAF /* UIViewController+CWLateralSlide.m */; };
+		B3D76D39ED4969DD0552F601A2244795 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3854B373D91050219553848591B2DF /* CWDrawerTransition.m */; };
+		BDEB6E5DF4CB54FFC5B51FF547E68A3D /* CWLateralSlideConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9984C812393D17C6DB5727B9EB8BDEFF /* CWLateralSlideConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69564E4E4342FFBB36450B5CC0B1C61 /* Pods-PickColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C92FE9DF9C61E812A02C54C9047F44A /* Pods-PickColor-dummy.m */; };
+		CD80DD6E53CAD3E189D5C01B6F1423AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA7E9846A415107B2B53972F5BD25350 /* UIViewController+CWLateralSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867496E92C165A7C93160FFA7930701 /* UIViewController+CWLateralSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0091C2DDB4326CDD084D4528523C1C4 /* CWLateralSlideAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDEF170A48C3C7520EED4C971BCE311 /* CWLateralSlideAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9044B33948F5B98925B00BA8A3EC736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1C2AFF386E26D2CEE119047596E1A4;
+			remoteInfo = CWLateralSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C46E6719F11DE4DC75BBED6D171486 /* CWLateralSlide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.xcconfig; sourceTree = "<group>"; };
+		08DD9E1DFB0A765C1ABB928CE1230783 /* Pods-PickColor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickColor-frameworks.sh"; sourceTree = "<group>"; };
+		1C132C1A04AC12E3F1C7DF3B7C22C2F1 /* Pods-PickColor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickColor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2867496E92C165A7C93160FFA7930701 /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CWLateralSlide.h"; path = "CWLateralSlide/UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
+		3A3854B373D91050219553848591B2DF /* CWDrawerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWDrawerTransition.m; path = CWLateralSlide/CWDrawerTransition.m; sourceTree = "<group>"; };
+		4310B5ED8A55AD00CA41936F6642C331 /* CWLateralSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-prefix.pch"; sourceTree = "<group>"; };
+		561954BDE38C713BB449515A99A514B1 /* CWDrawerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWDrawerTransition.h; path = CWLateralSlide/CWDrawerTransition.h; sourceTree = "<group>"; };
+		5768E5BF896EFC797710230BE39486F4 /* libPods-PickColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PickColor.a"; path = "libPods-PickColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59659D54BB71B60B97E26224C22A6CBB /* CWInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWInteractiveTransition.h; path = CWLateralSlide/CWInteractiveTransition.h; sourceTree = "<group>"; };
+		5D215C481F984CC6DD4EC868DDD432D8 /* Pods-PickColor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickColor-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D9AD72B76D9DB836B63DAB982B7A2F7 /* libCWLateralSlide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCWLateralSlide.a; path = libCWLateralSlide.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6738B9D97E4F3EA4125BEC84195C157C /* Pods-PickColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickColor.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4D07FC6F2DD4EAF675315028355774 /* Pods-PickColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickColor.release.xcconfig"; sourceTree = "<group>"; };
+		70528D8D734987873D021342E0443E2C /* CWLateralSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWLateralSlide-dummy.m"; sourceTree = "<group>"; };
+		714F177ED775180E82DE020D24B6713A /* Pods-PickColor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickColor-resources.sh"; sourceTree = "<group>"; };
+		8ADA3F405349B4C41C929AA644A4FF9F /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideConfiguration.m; path = CWLateralSlide/CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
+		8C92FE9DF9C61E812A02C54C9047F44A /* Pods-PickColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickColor-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9984C812393D17C6DB5727B9EB8BDEFF /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideConfiguration.h; path = CWLateralSlide/CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
+		CDDEF170A48C3C7520EED4C971BCE311 /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideAnimator.h; path = CWLateralSlide/CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		CE19303E8DCC56C004181EEED98BCCAF /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CWLateralSlide.m"; path = "CWLateralSlide/UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
+		D52DFC9C2B1421ED47AB8651D08812B6 /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideAnimator.m; path = CWLateralSlide/CWLateralSlideAnimator.m; sourceTree = "<group>"; };
+		F1E871035ADED0193DCFE8EE9167937C /* CWInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWInteractiveTransition.m; path = CWLateralSlide/CWInteractiveTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382F54479D76125626E877346148E083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD80DD6E53CAD3E189D5C01B6F1423AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388954C1443358B9E7AD6BC9E3BC54A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C71B75F6F38E7E22DE18A2ED78C9C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A1FDEEB757A78AB995EF8B780117BE /* CWLateralSlide */ = {
+			isa = PBXGroup;
+			children = (
+				561954BDE38C713BB449515A99A514B1 /* CWDrawerTransition.h */,
+				3A3854B373D91050219553848591B2DF /* CWDrawerTransition.m */,
+				59659D54BB71B60B97E26224C22A6CBB /* CWInteractiveTransition.h */,
+				F1E871035ADED0193DCFE8EE9167937C /* CWInteractiveTransition.m */,
+				CDDEF170A48C3C7520EED4C971BCE311 /* CWLateralSlideAnimator.h */,
+				D52DFC9C2B1421ED47AB8651D08812B6 /* CWLateralSlideAnimator.m */,
+				9984C812393D17C6DB5727B9EB8BDEFF /* CWLateralSlideConfiguration.h */,
+				8ADA3F405349B4C41C929AA644A4FF9F /* CWLateralSlideConfiguration.m */,
+				2867496E92C165A7C93160FFA7930701 /* UIViewController+CWLateralSlide.h */,
+				CE19303E8DCC56C004181EEED98BCCAF /* UIViewController+CWLateralSlide.m */,
+				55BD73850E2FCA84FB00C6B9651C8B1D /* Support Files */,
+			);
+			name = CWLateralSlide;
+			path = CWLateralSlide;
+			sourceTree = "<group>";
+		};
+		55BD73850E2FCA84FB00C6B9651C8B1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C46E6719F11DE4DC75BBED6D171486 /* CWLateralSlide.xcconfig */,
+				70528D8D734987873D021342E0443E2C /* CWLateralSlide-dummy.m */,
+				4310B5ED8A55AD00CA41936F6642C331 /* CWLateralSlide-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CWLateralSlide";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				922CBF5EBE0D4BF667C23CAA6F34713F /* Pods */,
+				A21DAFEA773FEF57B754CB83A1B3A623 /* Products */,
+				BA7A8C6292449A35D7AF6DED1FA83AE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		922CBF5EBE0D4BF667C23CAA6F34713F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55A1FDEEB757A78AB995EF8B780117BE /* CWLateralSlide */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21DAFEA773FEF57B754CB83A1B3A623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9AD72B76D9DB836B63DAB982B7A2F7 /* libCWLateralSlide.a */,
+				5768E5BF896EFC797710230BE39486F4 /* libPods-PickColor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA7A8C6292449A35D7AF6DED1FA83AE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24B9DC447556C3F794AE79F66240456 /* Pods-PickColor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F24B9DC447556C3F794AE79F66240456 /* Pods-PickColor */ = {
+			isa = PBXGroup;
+			children = (
+				1C132C1A04AC12E3F1C7DF3B7C22C2F1 /* Pods-PickColor-acknowledgements.markdown */,
+				5D215C481F984CC6DD4EC868DDD432D8 /* Pods-PickColor-acknowledgements.plist */,
+				8C92FE9DF9C61E812A02C54C9047F44A /* Pods-PickColor-dummy.m */,
+				08DD9E1DFB0A765C1ABB928CE1230783 /* Pods-PickColor-frameworks.sh */,
+				714F177ED775180E82DE020D24B6713A /* Pods-PickColor-resources.sh */,
+				6738B9D97E4F3EA4125BEC84195C157C /* Pods-PickColor.debug.xcconfig */,
+				6A4D07FC6F2DD4EAF675315028355774 /* Pods-PickColor.release.xcconfig */,
+			);
+			name = "Pods-PickColor";
+			path = "Target Support Files/Pods-PickColor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B0BC50EBB4083392847A1F41D3A49BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12139400FA485D13A6BE236B6741BC4A /* CWDrawerTransition.h in Headers */,
+				4483B09951D6C449CFEA9306DDF24950 /* CWInteractiveTransition.h in Headers */,
+				F0091C2DDB4326CDD084D4528523C1C4 /* CWLateralSlideAnimator.h in Headers */,
+				BDEB6E5DF4CB54FFC5B51FF547E68A3D /* CWLateralSlideConfiguration.h in Headers */,
+				EA7E9846A415107B2B53972F5BD25350 /* UIViewController+CWLateralSlide.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E1C2AFF386E26D2CEE119047596E1A4 /* CWLateralSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9998A9030A45D62478C2226C572C8592 /* Build configuration list for PBXNativeTarget "CWLateralSlide" */;
+			buildPhases = (
+				65036FB5F151C64320A7731BC77CD35F /* Sources */,
+				382F54479D76125626E877346148E083 /* Frameworks */,
+				3B0BC50EBB4083392847A1F41D3A49BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWLateralSlide;
+			productName = CWLateralSlide;
+			productReference = 5D9AD72B76D9DB836B63DAB982B7A2F7 /* libCWLateralSlide.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89576AA9EC4033FA869A1FBD7764DEDB /* Pods-PickColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D844260C92ECAD3211AE7FCF678920E /* Build configuration list for PBXNativeTarget "Pods-PickColor" */;
+			buildPhases = (
+				E8D2964BE116743FF9CF81BEE089FD2B /* Sources */,
+				388954C1443358B9E7AD6BC9E3BC54A2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCB1C1BFAFAD136B2F4ECA0A5BC9154 /* PBXTargetDependency */,
+			);
+			name = "Pods-PickColor";
+			productName = "Pods-PickColor";
+			productReference = 5768E5BF896EFC797710230BE39486F4 /* libPods-PickColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A21DAFEA773FEF57B754CB83A1B3A623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1C2AFF386E26D2CEE119047596E1A4 /* CWLateralSlide */,
+				89576AA9EC4033FA869A1FBD7764DEDB /* Pods-PickColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65036FB5F151C64320A7731BC77CD35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D76D39ED4969DD0552F601A2244795 /* CWDrawerTransition.m in Sources */,
+				6A20D0499733A6C484D3C755051D72C7 /* CWInteractiveTransition.m in Sources */,
+				56A9DF242F515F0D5B06D2CAB5B2214B /* CWLateralSlide-dummy.m in Sources */,
+				771E7A6C1CB3CF2EBD04CD446B0AB923 /* CWLateralSlideAnimator.m in Sources */,
+				AD889B907C7FE68C4AA6F4B41658C099 /* CWLateralSlideConfiguration.m in Sources */,
+				AF4950E165E3DF556EE54BBE78F01251 /* UIViewController+CWLateralSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D2964BE116743FF9CF81BEE089FD2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69564E4E4342FFBB36450B5CC0B1C61 /* Pods-PickColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCB1C1BFAFAD136B2F4ECA0A5BC9154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWLateralSlide;
+			target = 5E1C2AFF386E26D2CEE119047596E1A4 /* CWLateralSlide */;
+			targetProxy = A9044B33948F5B98925B00BA8A3EC736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F5B785028BCD7DF66DF706AF423614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C46E6719F11DE4DC75BBED6D171486 /* CWLateralSlide.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		28FB9C477BADBE0F9F009983FC811E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4D07FC6F2DD4EAF675315028355774 /* Pods-PickColor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3888EC2CBFDEFA50CE98DC67715FD2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C46E6719F11DE4DC75BBED6D171486 /* CWLateralSlide.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4B0CB2F4B691522D0C218CDC14A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6738B9D97E4F3EA4125BEC84195C157C /* Pods-PickColor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D844260C92ECAD3211AE7FCF678920E /* Build configuration list for PBXNativeTarget "Pods-PickColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4B0CB2F4B691522D0C218CDC14A109 /* Debug */,
+				28FB9C477BADBE0F9F009983FC811E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9998A9030A45D62478C2226C572C8592 /* Build configuration list for PBXNativeTarget "CWLateralSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3888EC2CBFDEFA50CE98DC67715FD2D5 /* Debug */,
+				12F5B785028BCD7DF66DF706AF423614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
